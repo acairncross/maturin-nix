@@ -34,6 +34,7 @@ impl Info {
     }
 
     fn cargo_metadata(&self) -> cargo_metadata::Metadata {
+        println!("manifest path: {:?}", &self.manifest_path);
         cargo_metadata::MetadataCommand::new()
             .manifest_path(&self.manifest_path)
             .exec()
