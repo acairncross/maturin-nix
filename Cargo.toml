@@ -12,3 +12,4 @@ exclude = [
 maturin = "0.7.6"
 structopt = "0.3"
 ansi_term = "0.12"
+cargo_metadata = "0.8.1"
