@@ -97,7 +97,7 @@ fn get_tag_from_cargo_metadata(cargo_metadata: &cargo_metadata::Metadata) -> Str
 
     let python_tag = format!("cp{}", min_abi3_version_string);
     let abi_tag = "abi3";
-    format!("{python_tag}-{abi_tag}-linux_x86_64",)
+    format!("{}-{}-linux_x86_64", python_tag, abi_tag)
 }
 
 fn main() {
