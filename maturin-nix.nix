@@ -49,7 +49,7 @@ in rustPlatform.buildRustPackage rec {
 
   src = builtins.filterSource sourceFilter ./.;
 
-  cargoSha256 = "1yf9v50cl2w3xka7y2nvg9vb6nk3vb0pazss8rlv5bjxipv0672a";
+  cargoSha256 = "sha256-cJYvrPoYcaE6rddrwUKovunB99J8t4U3Hsm0ISu63o4=";
 
   nativeBuildInputs = [ pkgconfig ];
 
